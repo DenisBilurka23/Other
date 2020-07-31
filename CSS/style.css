@@ -1,0 +1,57 @@
+		.heading{
+	font-weight: 800;
+}
+
+		div div div{
+		margin-bottom: 100px;
+}
+		
+		.history{
+	max-height: 400px;
+	overflow:scroll;
+	background-color: #e6e6e6;
+	margin-top: 100px;
+
+}
+		.wrapper{
+	width: 800px;
+	margin: 0 auto;
+	font-size: 1.3em;	
+}
+		h1{
+	text-align: center;
+}
+
+		a{
+	color: black;
+	text-decoration: none;
+	background-color: #dadada;
+	padding: 5px 15px;
+	border-radius: 10px;
+}
+
+		a:hover{
+	color: white;
+	background-color: #767676;
+	padding: 7px 18px;
+	transition: ease 0.3s;	
+}
+.container{
+	width: 800px;
+	text-align: center;
+	display: inline-block;
+	background-color: red;
+	
+}
+.image{
+	margin: 0 auto;
+	display: block;
+	width: 1200px;
+}
+
+
+
+
+
+
+
