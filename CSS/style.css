@@ -28,6 +28,7 @@
 	background-color: #dadada;
 	padding: 5px 15px;
 	border-radius: 10px;
+	margin: 10px;
 }
 
 		a:hover{
@@ -49,6 +50,39 @@
 	width: 1200px;
 }
 
+.sideBar{
+	z-index: 100;
+	position: fixed;
+	background-color: rgb(219, 161, 138, 0.5);
+	top: 50%;
+	margin-top: -125px;
+	border-radius: 10px;
+
+}
+.hardBoardImg{
+	position: relative;
+}
+.freestyle{
+	position: relative;
+}
+.freeride{
+	position: relative;
+}
+
+.upperText1{
+	position: absolute;
+	z-index: 5;
+	top: 50%;
+	left:50%;
+	margin-left:-600px;
+	width: 1200px;
+	background-color: rgba(255,255,255, 0.5);
+}
+.pUpperText{
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.0em;
+}
 
 
 
