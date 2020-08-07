@@ -173,6 +173,89 @@ border-left: black 1px solid;
 
 
 
+.navbar{
+	margin-bottom: 80px;
+}
+
+.List{
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+	font-size: 1.3em;
+	font-weight: bold;
+
+}
+div ul li a{
+	color: black;
+	background-color: none;
+	text-decoration: none;
+	border-radius: 0px;
+	padding: 0px ;
+	margin: 0px;
+	background-color: #dadada;
+	display: block;
+	padding: 0 50px;
+	white-space:pre;
+}
+
+div ul li a:hover{
+	color: black;
+	background-color: white;
+	padding: 0px;
+	background-color: #dadada;
+	padding: 0 50px;
+}
+
+
+li{
+	
+	background-color: #dadada;
+	border-right: 3px solid white;
+	position: relative;
+
+}
+.pageList{
+padding: 0 50px;
+}
+
+.innerPageList{
+	display: none;
+	position: absolute;
+	list-style-type: none;
+	left:0;
+	right: 0;
+	padding-left: 0px;
+	padding-top: 3px;
+}
+.innerPageList2{
+	display: none;
+	position: absolute;
+	list-style-type: none;
+	padding-left: 0px;
+	top: 0;
+	right: 100%;
+}
+.base{
+	padding: 0 50px;
+}
+.pageList:hover .innerPageList{
+	display: block;
+}
+.base:hover .innerPageList2{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
