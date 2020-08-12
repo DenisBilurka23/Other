@@ -23,7 +23,7 @@ body{
 	font-size: 1.3em;	
 	background-color: rgba(266,266,266, .6);
 	padding: 0 50px;
-	padding-bottom: 1px;
+	padding-bottom: 0;
 
 }
 		h1{
@@ -150,7 +150,7 @@ padding: 0 50px;
 	position: absolute;
 	list-style-type: none;
 	padding-left: 0px;
-	top: 0;
+	top:0;
 	right: 100%;
 }
 .base{
@@ -188,19 +188,19 @@ padding: 0 50px;
 	background-color: rgba(0,0,0,0);
 }
 
-.facebook{
+.fourF{
 	width: 177px; height: 90px;
 	background: url(../Images/SPRITE/finalSprite.png);
 }
-.twitter{
+.burton{
 	background: url(../Images/SPRITE/finalSprite.png) -184px 0px;
 	 width: 78px; height: 90px;
 }
-.google{
+.salomon{
 	 background: url(../Images/SPRITE/finalSprite.png) -270px 0px;
 	 width: 146px; height: 90px;
 }
-.ig{
+.jonessnowboards{
 	background: url(../Images/SPRITE/finalSprite.png)  -422px 0px;
 	width: 99px; height: 90px;
 }
