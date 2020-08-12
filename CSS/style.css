@@ -3,6 +3,8 @@
 }
 body{
 	background: url(../Images/mountains_peaks_snowy_129033_3840x2400.jpg) fixed center/cover;
+	margin: 0;
+	padding: 0;
 }
 
 		div div div{
@@ -31,11 +33,11 @@ body{
 		a{
 	color: black;
 	text-decoration: none;
-	background-color: #dadada;
+	background-color: rgba(218, 218, 218, .6);
+
 	padding: 5px 15px;
 	border-radius: 10px;
 	margin: 10px;
-
 }
 
 		a:hover{
@@ -102,13 +104,14 @@ body{
 	font-weight: bold;
 
 }
+
 div ul li a{
 	background-color: none;
 	text-decoration: none;
 	border-radius: 0px;
 	padding: 0px ;
 	margin: 0px;
-	background-color: #dadada;
+	background-color: rgba(218, 218, 218, .5);
 	display: block;
 	padding: 0 50px;
 	white-space:pre;
@@ -118,13 +121,13 @@ div ul li a:hover{
 	color: black;
 	background-color: white;
 	padding: 0px;
-	background-color: #dadada;
+	background-color: rgba(218, 218, 218, .5);
 	padding: 0 50px;
 }
 
 .List li{
 	
-	background-color: #dadada;
+	background-color: rgba(218, 218, 218, .5);
 	margin-right: 3px;
 	position: relative;
 
@@ -166,7 +169,7 @@ padding: 0 50px;
 .sprite{
 	list-style-type: none;
 	display: flex;
-	flex-direction: row;
+	justify-content: space-between;
 	}
 
 
@@ -182,29 +185,25 @@ padding: 0 50px;
 .sprite li a:hover{
 	padding: 0;
 	margin: 0;
+	background-color: rgba(0,0,0,0);
 }
 
 .facebook{
-	/*transform: scale(0.5);*/
-	width: 133px; height: 160px;
-	background: url(../Images/SPRITE/css_sprites.png) -10px -318px;
+	width: 177px; height: 90px;
+	background: url(../Images/SPRITE/finalSprite.png);
 }
 .twitter{
-	/*transform: scale(0.85);*/
-	background: url(../Images/SPRITE/css_sprites.png) -418px -181px;
-	 width: 151px; height: 96px;
+	background: url(../Images/SPRITE/finalSprite.png) -184px 0px;
+	 width: 78px; height: 90px;
 }
 .google{
-	 background: url(../Images/SPRITE/css_sprites.png) -10px -10px;
-	 width: 388px; height: 288px;
+	 background: url(../Images/SPRITE/finalSprite.png) -270px 0px;
+	 width: 146px; height: 90px;
 }
 .ig{
-	background: url(../Images/SPRITE/css_sprites.png)  -418px -10px;
-	width: 151px; height: 151px;
+	background: url(../Images/SPRITE/finalSprite.png)  -422px 0px;
+	width: 99px; height: 90px;
 }
-
-
-
 
 
 
