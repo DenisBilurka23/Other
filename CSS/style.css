@@ -1,5 +1,8 @@
-		.heading{
+	.heading{
 	font-weight: 800;
+}
+body{
+	background: url(../Images/mountains_peaks_snowy_129033_3840x2400.jpg) fixed center/cover;
 }
 
 		div div div{
@@ -9,14 +12,17 @@
 		.history{
 	max-height: 400px;
 	overflow:scroll;
-	background-color: #e6e6e6;
 	margin-top: 100px;
-
+	
 }
 		.wrapper{
 	width: 800px;
 	margin: 0 auto;
 	font-size: 1.3em;	
+	background-color: rgba(266,266,266, .6);
+	padding: 0 50px;
+	padding-bottom: 1px;
+
 }
 		h1{
 	text-align: center;
@@ -116,11 +122,10 @@ div ul li a:hover{
 	padding: 0 50px;
 }
 
-
-li{
+.List li{
 	
 	background-color: #dadada;
-	border-right: 3px solid white;
+	margin-right: 3px;
 	position: relative;
 
 }
@@ -154,6 +159,52 @@ padding: 0 50px;
 .base:hover .innerPageList2{
 	display: block;
 }
+.linkBar{
+	display: flex;
+	justify-content: space-around;
+}
+.sprite{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	}
+
+
+.sprite li{
+	/*transform: scale(0.5);*/
+}
+.sprite li a{
+	display: block;
+	padding: 0;
+	margin: 0;
+
+}
+.sprite li a:hover{
+	padding: 0;
+	margin: 0;
+}
+
+.facebook{
+	/*transform: scale(0.5);*/
+	width: 133px; height: 160px;
+	background: url(../Images/SPRITE/css_sprites.png) -10px -318px;
+}
+.twitter{
+	/*transform: scale(0.85);*/
+	background: url(../Images/SPRITE/css_sprites.png) -418px -181px;
+	 width: 151px; height: 96px;
+}
+.google{
+	 background: url(../Images/SPRITE/css_sprites.png) -10px -10px;
+	 width: 388px; height: 288px;
+}
+.ig{
+	background: url(../Images/SPRITE/css_sprites.png)  -418px -10px;
+	width: 151px; height: 151px;
+}
+
+
+
 
 
 
