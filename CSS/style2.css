@@ -1,4 +1,7 @@
-
+body{
+	margin: 0;
+	padding: 0;
+}
 .container{
 	width: 900px;
 	margin: 0 auto;	
@@ -243,6 +246,78 @@ padding: 0 50px;
 }
 .base:hover .innerPageList2{
 	display: block;
+}
+.home{
+	position: relative;
+	display: block;
+	padding-left: 70px;
+	padding-right: 30px;
+}
+.home:hover{
+	padding-left: 70px;
+	padding-right: 30px;
+}
+.home:before{
+	content: "";
+	width:27px;
+	height: 27px;
+	background: url(../Images/SPRITE/iconSprite.png)-61px 1px;
+	position: absolute;
+	right: 65%;
+	top: 0;
+}
+.secondPageIcon{
+	padding-left: 70px;
+	padding-right: 30px;
+}
+.secondPageIcon:hover{
+	padding-left: 70px;
+	padding-right: 30px;
+}
+.secondPageIcon:before{
+	content: "";
+	width:27px;
+	height: 27px;
+	background: url(../Images/SPRITE/iconSprite.png) -22px -1px;
+	position: absolute;
+	right: 75%;
+	top: 2px;
+}
+.listText{
+	position: relative;
+}
+.listText:after{
+	content: "";
+	width:27px;
+	height: 15px;
+	background: url(../Images/SPRITE/iconSprite.png) -139px -6px;
+	position: absolute;
+	left: 100%;
+	top: 30%;
+}
+.pageList:hover .listText:after{
+	content: "";
+	background: url(../Images/SPRITE/iconSprite.png) -108px -6px;
+}
+.listText2{
+	position: relative;
+}
+.listText2:before{
+	content: "";
+	width:15px;
+	height: 20px;
+	background: url(../Images/SPRITE/iconSprite.png) -2px -3px;
+	position: absolute;
+	right: 110%;
+	top: 20%;
+}
+.base:hover .listText2:before{
+	content: "";
+	background: url(../Images/SPRITE/iconSprite.png) -90px -3px;
+	position: absolute;
+}
+.navbar{
+	font-size: 1.3em;
 }
 
 

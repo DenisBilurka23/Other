@@ -18,14 +18,23 @@ body{
 	
 }
 		.wrapper{
+			
 	width: 800px;
 	margin: 0 auto;
 	font-size: 1.3em;	
 	background-color: rgba(266,266,266, .6);
 	padding: 0 50px;
-	padding-bottom: 0;
-
+	padding-bottom: 1px;
 }
+		.secondPage{
+	padding: 50px 50px;
+}
+		.firstWrap{
+			padding: 0 50px 50px 50px;
+}
+
+
+
 		h1{
 	text-align: center;
 }
@@ -56,7 +65,7 @@ body{
 .image{
 	margin: 0 auto;
 	display: block;
-	width: 1200px;
+	width: 900px;
 }
 
 .sideBar{
@@ -66,16 +75,31 @@ body{
 	top: 50%;
 	margin-top: -125px;
 	border-radius: 10px;
-
+	
 }
+.sideBar p{
+	margin: 15px 0;
+}
+
+
 .hardBoardImg{
 	position: relative;
+	display: inline-block;
+	margin-left: -450px;
+	left: 50%;
 }
+
 .freestyle{
 	position: relative;
+	display: inline-block;
+	margin-left: -450px;
+	left: 50%;
 }
 .freeride{
 	position: relative;
+	display: inline-block;
+	margin-left: -450px;
+	left: 50%;
 }
 
 .upperText1{
@@ -97,6 +121,9 @@ body{
 }
 
 .List{
+	position: relative;
+	z-index: 100;
+	margin: 0;
 	display: flex;
 	list-style-type: none;
 	justify-content: center;
@@ -111,7 +138,7 @@ div ul li a{
 	border-radius: 0px;
 	padding: 0px ;
 	margin: 0px;
-	background-color: rgba(218, 218, 218, .5);
+	background-color: rgba(218, 218, 218);
 	display: block;
 	padding: 0 50px;
 	white-space:pre;
@@ -121,47 +148,126 @@ div ul li a:hover{
 	color: black;
 	background-color: white;
 	padding: 0px;
-	background-color: rgba(218, 218, 218, .5);
+	background-color: rgba(218, 218, 218);
 	padding: 0 50px;
 }
 
 .List li{
 	
-	background-color: rgba(218, 218, 218, .5);
+	background-color: rgba(218, 218, 218);
 	margin-right: 3px;
 	position: relative;
 
 }
 .pageList{
-padding: 0 50px;
+	padding: 0 50px;
+}
+.listText{
+	position: relative;
+}
+.listText:after{
+	content: "";
+	width:27px;
+	height: 15px;
+	background: url(../Images/SPRITE/iconSprite.png) -139px -6px;
+	position: absolute;
+	left: 100%;
+	top: 30%;
+}
+.pageList:hover .listText:after{
+	content: "";
+	background: url(../Images/SPRITE/iconSprite.png) -108px -6px;
 }
 
+
 .innerPageList{
-	display: none;
+	top: -70px;
 	position: absolute;
 	list-style-type: none;
 	left:0;
 	right: 0;
 	padding-left: 0px;
 	padding-top: 3px;
+	transition: .3s ease;
+	z-index: -1;
 }
+
+.pageList:hover .innerPageList{
+	top: 100%;
+}
+
+
 .innerPageList2{
-	display: none;
+	opacity: 0;
 	position: absolute;
 	list-style-type: none;
 	padding-left: 0px;
 	top:0;
 	right: 100%;
+	transition: .3s ease;
 }
+.base:hover .innerPageList2{
+opacity: 1;
+}
+
 .base{
 	padding: 0 50px;
 }
-.pageList:hover .innerPageList{
-	display: block;
+.listText2{
+	position: relative;
 }
-.base:hover .innerPageList2{
-	display: block;
+.listText2:before{
+	content: "";
+	width:15px;
+	height: 20px;
+	background: url(../Images/SPRITE/iconSprite.png) -2px -3px;
+	position: absolute;
+	right: 110%;
+	top: 20%;
 }
+.base:hover .listText2:before{
+	content: "";
+	background: url(../Images/SPRITE/iconSprite.png) -90px -3px;
+	position: absolute;
+}
+
+.home{
+	position: relative;
+	display: block;
+	padding-left: 70px;
+	padding-right: 30px;
+}
+.home:hover{
+	padding-left: 70px;
+	padding-right: 30px;
+}
+.home:before{
+	content: "";
+	width:27px;
+	height: 27px;
+	background: url(../Images/SPRITE/iconSprite.png)-61px 1px;
+	position: absolute;
+	right: 65%;
+	top: 0;
+}
+.secondPageIcon{
+	padding-left: 70px;
+	padding-right: 30px;
+}
+.secondPageIcon:hover{
+	padding-left: 70px;
+	padding-right: 30px;
+}
+.secondPageIcon:before{
+	content: "";
+	width:27px;
+	height: 27px;
+	background: url(../Images/SPRITE/iconSprite.png) -22px -1px;
+	position: absolute;
+	right: 75%;
+	top: 2px;
+}
+
 .linkBar{
 	display: flex;
 	justify-content: space-around;
@@ -173,9 +279,6 @@ padding: 0 50px;
 	}
 
 
-.sprite li{
-	/*transform: scale(0.5);*/
-}
 .sprite li a{
 	display: block;
 	padding: 0;
