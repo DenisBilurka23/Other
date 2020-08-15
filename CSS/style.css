@@ -18,7 +18,7 @@ body{
 	
 }
 		.wrapper{
-			
+
 	width: 800px;
 	margin: 0 auto;
 	font-size: 1.3em;	
@@ -269,6 +269,7 @@ opacity: 1;
 }
 
 .linkBar{
+	margin-top: 750px;
 	display: flex;
 	justify-content: space-around;
 }
@@ -307,6 +308,98 @@ opacity: 1;
 	background: url(../Images/SPRITE/finalSprite.png)  -422px 0px;
 	width: 99px; height: 90px;
 }
+
+.hoverMe{
+right: -240px;
+position: fixed;
+top:20%;
+transform: rotate(-90deg);
+transition: right .4s ease;
+background-color: rgba(266,266,266, .6);
+width: 225px;
+
+}
+.hoverMe:hover{
+right: 0;
+}
+.innerHover1{
+	border: 1px black solid;
+}
+.innerHover2{
+	height: 300px;
+	border-bottom: 1px black solid;
+	border-left: 1px black solid;
+	border-right: 1px black solid;
+	position: relative;
+}
+.pInnerHover{
+	text-align: center;
+	font-size: 1.5em;
+}
+.HoverIcons{
+	list-style-type: none;
+	margin: 0;
+}
+
+.HoverIcons li a{
+	position: relative;
+	background-color: rgba(0,0,0,0);
+	padding: 0;
+	height: 50px;
+	width: 50px;
+	transform: rotate(135deg);
+}
+.HoverIcons li a:hover{
+	background-color: rgba(0,0,0,0);
+	padding: 0;
+	margin:0;
+	height: 50px;
+	width: 50px;
+}
+
+.linkIcon1{
+	background: url(../Images/SPRITE/hoverMeSprite.png) -2px -2px;
+}
+.linkIcon2{
+	background: url(../Images/SPRITE/hoverMeSprite.png) -55px -2px;
+}
+.linkIcon3{
+	background: url(../Images/SPRITE/hoverMeSprite.png) -110px -2px;
+
+}
+.linkIcon4{
+	background: url(../Images/SPRITE/hoverMeSprite.png) -165px -2px;
+}
+
+.HoverIcons li{
+	display: inline-block;
+	position: relative;
+}
+.icon1{
+	top:102px;
+	left: 69px;
+}
+.icon2{
+	top:100px;
+	left: -57px;
+}
+.icon3{
+	top:138px;
+	left: -75px;
+}
+.icon4{
+	top:10px;
+	left: 34px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
