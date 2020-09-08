@@ -128,6 +128,7 @@ header:before{
 	padding: 0 11px 0px 11px;
 	white-space: nowrap;
 	position: absolute;
+	z-index: 200;
 	right: 0;
 	top: 30px;
 	background: white;
@@ -174,16 +175,20 @@ header:before{
 	padding-bottom: 20px;
 }
 .navbarDropMenu{
-	margin-top: 30px;
 	display: none;
-	padding: 20px 0 20px 0;
+	padding: 40px 0 40px 0;
 	z-index: 200;
-	background-color: #060606;
 	position: absolute;
+}
+.menu{
+	display: flex;
+}
+.innerMenu{
+	padding-left:20px;
 }
 .navbarDropMenu:before{
 	position: absolute;
-	bottom: 100%;
+	top:33px;
 	left:25px;
 	content: "";
 	display: block;
@@ -193,8 +198,18 @@ header:before{
 	border-right:7px solid transparent;
 	border-bottom:7px solid #060606;
 }
+.navbarDropMenu:after{
+	content: "";
+	position: absolute;
+	width: 375px;
+	height: 369px;
+	background-color: #060606;
+	top:40px;
+	z-index: -1;
+}
+
 .category:hover .navbarDropMenu{
-	display: flex;
+	display: block;
 }
 .navbarDropMenu a{
 	margin-right: 0px;
@@ -204,6 +219,19 @@ header:before{
 	margin-bottom: 15px;
 	font-size: 14px;
 }
+.menuItem1{
+	position: relative;
+}
+.menuItem1:after{
+	position: absolute;
+	top: 15px;
+	right:-8px;
+	content: "";
+	width: 1px;
+	height: 298px;
+	background-color: #121212;
+}
+
 .navbarDropMenu a:before{
 	position: absolute;
 	content: "";
@@ -218,7 +246,8 @@ header:before{
 .navbarDropMenu a:hover{
 	text-decoration: underline;
 }
-.navbarDropMenu span{
+.navbarDropMenu h3{
+	margin-left:20px;
 	margin-bottom: 24px;
 	position: relative;
 	background-image: linear-gradient(to top, #ecbc35 0%, #f2d77c 100%);
@@ -377,6 +406,57 @@ header:before{
 .row1{
 	display: flex;
 	justify-content: space-between;
+}
+.cardHover{
+	/*display: flex;*/
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 255px;
+	height: 434px;
+	border: 1px solid #e5e5e5;
+	background-color: rgba(6, 6, 6, .7);
+	left:-12px;
+	top: -12px;
+}
+.price{
+	margin-bottom: 40px;
+	font-size: 22px;
+	padding: 20px 0 20px 0;
+	border-bottom: #606061 solid 1px;
+	border-top: #606061 solid 1px;
+}
+
+.cardBotton{
+	color: #453a1c;
+	padding: 11px 35px 11px 35px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.45);
+	border: 2px solid #c19324;
+	background: linear-gradient(to top, #ecbc35 0%, #f2d77c 100%);
+}
+.row>div:hover .cardHover{
+	display: flex;
+}
+.row>div:hover .flag{
+	display: none;
+}
+.row>div:hover{
+	border:none;
+}
+.row3>div:hover .flagYellow{
+	display: none;
+}
+.cardBotton:hover{
+	color: #f1b9b9;
+	border: 2px solid #a32424;
+	background-image:linear-gradient(to top, #cc0001 0%, #d63334 100%);
+}
+.sliderButton>a:hover{
+	color: #f1b9b9;
+	border: 2px solid #a32424;
+	background-image:linear-gradient(to top, #cc0001 0%, #d63334 100%);
 }
 .col1,.col2,.col3{
 	position:relative;
@@ -613,6 +693,14 @@ header:before{
 	border: 2px solid #c19324;
 	background-color: #eec652;
 	background-image: linear-gradient(to top, #ecbc35 0%, #f2d77c 100%);
+}
+.innerChat:hover{
+	color: #f1b9b9;
+	border: 2px solid #a32424;
+	background-image:linear-gradient(to top, #cc0001 0%, #d63334 100%);
+}
+.innerChar:before:hover{
+	background: url(../images/chatHover.png);
 }
 .innerChat:before{
 	content: "";
