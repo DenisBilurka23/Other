@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'gobold_cyr-latregular';
-    src: url('goboldcyr-lat-webfont.eot');
-    src: url('goboldcyr-lat-webfont.eot?#iefix') format('embedded-opentype'),
-         url('goboldcyr-lat-webfont.woff2') format('woff2'),
-         url('goboldcyr-lat-webfont.woff') format('woff'),
-         url('goboldcyr-lat-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'gobold_cyr-latregular';
+	src: url('goboldcyr-lat-webfont.eot');
+	src: url('goboldcyr-lat-webfont.eot?#iefix') format('embedded-opentype'),
+	url('goboldcyr-lat-webfont.woff2') format('woff2'),
+	url('goboldcyr-lat-webfont.woff') format('woff'),
+	url('goboldcyr-lat-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 .navStyle li{
 	white-space: nowrap;
@@ -43,9 +43,9 @@
 	display: none;
 }
 .el1{
-width: 30px;
-height: 2px;
-background-color: white;
+	width: 30px;
+	height: 2px;
+	background-color: white;
 }
 .el2{
 	width: 2px;
@@ -69,22 +69,22 @@ background-color: white;
 	display: none;
 }
 .line1{
-color: #ffffff;
-font-family: "Source Sans Pro";
-font-size: 27px;
-letter-spacing: 1.6px;
-text-transform: uppercase;
+	color: #ffffff;
+	font-family: "Source Sans Pro";
+	font-size: 27px;
+	letter-spacing: 1.6px;
+	text-transform: uppercase;
 }
 .line1 span{
 	font-weight: 700;
 }
 .line2{
-color: #9e171d;
-font-family: "Source Sans Pro";
-font-size: 15px;
-font-weight: 700;
-text-transform: uppercase;
-letter-spacing: 2.7px;
+	color: #9e171d;
+	font-family: "Source Sans Pro";
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2.7px;
 }
 .logoText{
 	position: absolute;
@@ -103,14 +103,15 @@ letter-spacing: 2.7px;
 }
 .block2{
 	padding-top: 30px;
+	padding-bottom: 100px;
 	background-color: black;
 }
 
 .carInfo{
-font-weight: 300;
-line-height: 24px;
-color: #494a4a;
-z-index: 5;
+	font-weight: 300;
+	line-height: 24px;
+	color: #494a4a;
+	z-index: 5;
 }
 
 .textBG{
@@ -121,17 +122,17 @@ z-index: 5;
 
 .itemBorder{
 	border-bottom: 2px  #494a4a solid;
-		/*padding-bottom: 10px;*/
+	/*padding-bottom: 10px;*/
 }
 .itemColor{
-color: #82878a;
+	color: #82878a;
 }
 .item1{
 	font-size: 25px;
 	text-transform: uppercase;
 }
 .cardPage{
-font-family: "Gobold CYR - LAT";
+	font-family: "Gobold CYR - LAT";
 }
 .cardPage span{
 	color: #707477;
@@ -164,8 +165,22 @@ font-family: "Gobold CYR - LAT";
 	top:12px;
 	left: 76px;
 }
-
-
-
-
+.carCardName{
+	margin: 50px 0 40px 0;
+	color:white;
+	font-family: "Gobold CYR - LAT";
+	font-size: 25px;
+}
+.carCardName span{
+	color: #0e0e0e;
+}
+.wrapper2{
+	background-color: black;
+}
+.carCardText{
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	color: white;
+}
 
