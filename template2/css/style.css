@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'gobold_cyr-latregular';
+    src: url('goboldcyr-lat-webfont.eot');
+    src: url('goboldcyr-lat-webfont.eot?#iefix') format('embedded-opentype'),
+         url('goboldcyr-lat-webfont.woff2') format('woff2'),
+         url('goboldcyr-lat-webfont.woff') format('woff'),
+         url('goboldcyr-lat-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.navStyle li{
+	white-space: nowrap;
+	font-size: 13px;
+	font-weight: 300;
+}
+.navStyle{
+	margin-top: 90px;
+}
+.navbar a{
+	color: #ffffff;;
+}
+.toggler{
+	margin-top:100px;
+	padding-left:10px;
+}
+.brandstyle{
+	margin-top:90px;
+	position: relative;
+}
+
+.toggler:focus{
+	outline: none;
+	
+}
+.newToggler{
+	position: absolute;
+}
+.cross{
+	position: relative;
+	transform: rotate(45deg);
+	top:-23px;
+	right: 6px;
+	display: none;
+}
+.el1{
+width: 30px;
+height: 2px;
+background-color: white;
+}
+.el2{
+	width: 2px;
+	height: 30px;
+	background-color: white;
+	position: absolute;
+	top:-14px;
+	left:15px;
+}
+.stripe{
+	position: relative;
+	top:-30px;
+	right: 10px;
+	width: 40px;
+	height: 2px;
+	background-color: white;
+	margin-bottom: 5px;
+}
+
+.logoLight{
+	display: none;
+}
+.line1{
+color: #ffffff;
+font-family: "Source Sans Pro";
+font-size: 27px;
+letter-spacing: 1.6px;
+text-transform: uppercase;
+}
+.line1 span{
+	font-weight: 700;
+}
+.line2{
+color: #9e171d;
+font-family: "Source Sans Pro";
+font-size: 15px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 2.7px;
+}
+.logoText{
+	position: absolute;
+	left: 120%;
+	top:5px;
+
+}
+.wrapper{
+	padding-bottom: 60px;
+}
+.car{
+	width: inherit;
+}
+.outerCar{
+	z-index: 20;
+}
+.block2{
+	padding-top: 30px;
+	background-color: black;
+}
+
+.carInfo{
+font-weight: 300;
+line-height: 24px;
+color: #494a4a;
+z-index: 5;
+}
+
+.textBG{
+	height: 372px;
+	background: url(../images/textBG.png);
+	right:40px;
+}
+
+.itemBorder{
+	border-bottom: 2px  #494a4a solid;
+		/*padding-bottom: 10px;*/
+}
+.itemColor{
+color: #82878a;
+}
+.item1{
+	font-size: 25px;
+	text-transform: uppercase;
+}
+.cardPage{
+font-family: "Gobold CYR - LAT";
+}
+.cardPage span{
+	color: #707477;
+}
+.arrow-part1{
+	width:20px;
+	height: 2px;
+	background-color: #bcbcbc;
+}
+.arrow-part2{
+	transform: rotate(225deg);
+	bottom: -6px;
+	left: 16px;
+}
+.arrow-part2:after{
+	content: "";
+	display: block;
+	width:10px;
+	height: 2px;
+	background-color: #bcbcbc;
+}
+.arrow-part2:before{
+	content: "";
+	display: block;
+	width:2px;
+	height: 8px;
+	background-color: #bcbcbc;
+}
+.arrow{
+	top:12px;
+	left: 76px;
+}
+
+
+
+
+
