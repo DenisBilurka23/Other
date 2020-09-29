@@ -5,6 +5,11 @@ var logoL = document.querySelector(".logoLight");
 var logoD = document.querySelector(".logoDark");
 var line2 = document.querySelector(".line2");
 var cross = document.querySelector(".cross");
+var vType = document.querySelector(".vType");
+var vTypeArrowDown = document.querySelector(".vTypeArrowDown");
+var vTypeArrowUp = document.querySelector(".vTypeArrowUp");
+var dropMenu = document.querySelector(".dropMenu");
+
 
 
 navColor.style.backgroundColor = "black"
@@ -27,5 +32,21 @@ toggler.onclick = () => {
 
 	}
 } 
+
+vTypeArrowDown.style.display = 'block'
+vType.onclick = () => {
+	if(vTypeArrowDown.style.display == 'block'){
+		vTypeArrowUp.style.display = 'block'
+		vTypeArrowDown.style.display = 'none'
+		dropMenu.style.display = 'block'
+	}else{
+		vTypeArrowUp.style.display = 'none'
+		vTypeArrowDown.style.display = 'block'
+		dropMenu.style.display = 'none'
+
+	}
+}
+
+
 
 
