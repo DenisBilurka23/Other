@@ -733,6 +733,7 @@ input[type="submit"]:hover{
 	color: black;
 	font-family: "Gobold CYR - LAT";
 	font-size: 25px;
+	/*padding: 0 0 50px 0;*/
 }
 .block6Name>span{
 	color: #9e171d;
@@ -750,11 +751,40 @@ input[type="submit"]:hover{
 	padding: 80px 0 80px 0;
 }
 
+.innerBlock6>a{
+	color: #82878a;
+	font-size: 14px;
+}
+.innerBlock6{
+	color: #82878a;
+	font-size: 14px;
+}
 
+.block6Bottom{
+	padding: 10px 0 10px 0;
+	background-color: #e6e6e6;
+	color: #82878a;
+	font-size: 13px;
+}
+.block6Bottom a{
+	color: #82878a;
+}
+.block6link2{
+	color: #9e171d!important;
+}
+.innerBlock6Bottom, .socialMediaIcons, .copyright{
+	padding: 0;
+}
+.footerIcon{
+	height: 29px;
+}
+.innerBlock6Bottom2{
+	margin: 0;
+}
+.socialMediaIcons>a{
+	display: inline-block;
+	margin-left: 6px;
 
-
-
-
-
+}
 
 
